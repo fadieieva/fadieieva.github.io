@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <a-scene>
+	<a-camera position="0 0 500" cursor-visible="true" cursorscale="2" cursor-color="#0095DD" cursor-opacity="0.5"></a-camera> 
+	
+        <a-sky color="black"></a-sky>
+       
+      <a-sphere position="0 5 0" color="cyan" radius="6.4" ></a-sphere>
+
+        <a-entity position="0 5 0" rotation="0 0 0" animation="property: rotation; to: 0 0 360; loop: true; dur: 5000">
+        <a-sphere position="0 389.4 0" color="earth_atmos_2048" radius="1.74" ></a-sphere>
+        </a-entity>
+        
+        
+    </a-scene>
+</html>
